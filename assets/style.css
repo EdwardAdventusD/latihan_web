@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: auto;
+  padding: auto;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #5bc0f8;
+  padding: 3px;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav .logo a {
+  float: left;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 70px;
+  padding-top: 5px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+nav ul {
+  float: right;
+  margin-right: 40px;
+  list-style: none;
+  position: relative;
+  box-shadow: none;
+}
+
+nav ul li {
+  display: inline-block;
+  background: #5bc0f8;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #5bc0f8;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 5px #0081c9, 0 0 10px #86e5ff;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.bghome {
+  background-color: #86e5ff;
+}
+
+main {
+  margin: 0;
+}
+
+#about {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+article .image {
+  width: 35%;
+  margin-left: 5rem;
+}
+
+article .content1 {
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+}
+
+article .content1 h3 {
+  color: black;
+  font-size: 26px;
+  margin: 3px;
+}
+
+article .content1 h2 {
+  font-size: 36px;
+  margin: 3px;
+}
+
+article .content1 p {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 100px;
+}
+
+.content1 button {
+  background-color: white;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.content1 button:hover {
+  background-color: #5bc0f8;
+  color: #5bc0f8;
+  box-shadow: 0 0 5px #0081c9, 0 0 10px #86e5ff;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.content1 button a {
+  color: black;
+  text-decoration: none;
+}
+
+article #skill {
+  margin: 0;
+  padding: 0;
+}
+
+#skill h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+/* .buton {
+  background-color: #5bc0f8;
+  color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.buton:hover {
+  background-color: #5bc0f8;
+  color: #5bc0f8;
+  box-shadow: 0 0 5px #0081c9, 0 0 10px #86e5ff;
+  border: 1px solid transparent;
+  border-radius: 20px;
+} */
+
+.card {
+  background-color: #86e5ff;
+  padding: 3rem;
+  margin: 1rem;
+  width: 30%;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.content2 {
+  display: flex;
+  /* margin: 10px; */
+}
+
+.content2 img {
+  width: 100%;
+  margin: auto;
+}
+
+.content2 h3 {
+  color: black;
+  font-size: 28px;
+  text-align: center;
+}
+
+fieldset {
+  background-color: #86e5ff;
+  /* margin: 20px;
+  border: 1px solid transparent;
+  border-radius: 30px; */
+  color: white;
+  /* margin-top: 3rem; */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+fieldset h2 {
+  font-size: 32;
+  text-align: center;
+  margin-top: 2%;
+  color: black;
+}
+
+fieldset p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2%;
+  color: black;
+}
+
+fieldset label {
+  font-size: 20px;
+  margin: 5px;
+  color: black;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 97%;
+  padding: 10px;
+  margin: 10px;
+}
+
+textarea {
+  width: 98%;
+  margin: 10px;
+}
+
+form button {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  width: 100px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+form button:hover {
+  background-color: #5bc0f8;
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #0081c9, 0 0 10px #86e5ff;
+}
+
+footer {
+  background-color: #5bc0f8;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    width: 90%;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .article image {
+    width: 100%;
+    padding: 0;
+  }
+
+  .content2 {
+    width: 90%;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .content2 .card {
+    width: 90%;
+    padding: 0;
+    margin-right: 20px;
+  }
+}
