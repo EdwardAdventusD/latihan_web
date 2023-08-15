@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href=""> Ward.</a>
+        </div>
+
+        <ul>
+          <!-- <li><a href="">Home</a></li> -->
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="bghome">
+        <!-- Artikel 1 -->
+        <article id="about">
+          <div class="image">
+            <img src="Hand coding-rafiki.svg" alt="gambar coding" />
+          </div>
+
+          <div class="content1">
+            <h3>Hallo</h3>
+            <h2>Edward Adventus Dembo</h2>
+            <p>
+              Halo, Saya adalah Pelajar dari sekolah SMK Krian 1 Sidoarjo Jurusan RPL (Rekayasa Perangkat Lunak) atau dalam Bahasa Inggrisnya Software Engineering, Saya bertempat tinggal di Jagalan Rt 13 / Rw 03 Krian, Sidoarjo dan sekarang
+              Saya berumur 17 Tahun.
+            </p>
+
+            <button id="downloadButton">
+              <a href="assets/img/freya.jpg">Download Freya</a>
+            </button>
+          </div>
+        </article>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,128L48,122.7C96,117,192,107,288,90.7C384,75,480,53,576,64C672,75,768,117,864,138.7C960,160,1056,160,1152,149.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <!-- Article 2 -->
+      <article id="skill">
+        <h2>Skills</h2>
+        <!-- Skill 1 -->
+        <div class="content2">
+          <section class="card">
+            <img src="Hand coding-rafiki.svg" alt="gambar coding" width="20%" />
+
+            <h3>Pemrograman</h3>
+          </section>
+
+          <!-- Skill 2 -->
+          <section class="card">
+            <img src="Hand coding-rafiki.svg" alt="gambar coding" width="20%" />
+
+            <h3>Jaringan</h3>
+          </section>
+
+          <!-- Skill 3 -->
+          <section class="card">
+            <img src="Hand coding-rafiki.svg" alt="gambar coding" width="20%" />
+
+            <h3>Desain</h3>
+          </section>
+        </div>
+      </article>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#86e5ff"
+          fill-opacity="1"
+          d="M0,256L48,234.7C96,213,192,171,288,138.7C384,107,480,85,576,117.3C672,149,768,235,864,229.3C960,224,1056,128,1152,112C1248,96,1344,160,1392,192L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+
+      <form action="" method="" id="contact">
+        <fieldset>
+          <h2>Kontak Saya</h2>
+          <p>Jika Ada Kritik Dan Saran Sialakan Kirim Di Bawah Ini :D</p>
+
+          <label for="nama">Nama :</label><br />
+          <input type="text" id="nama" autocomplete="off" required /><br />
+
+          <label for="email">Email :</label><br />
+          <input type="email" id="email" autocomplete="off" required /><br />
+
+          <label for="pesan">Pesan :</label><br />
+          <textarea id="pesan" cols="30" rows="10" required></textarea>
+          <br />
+
+          <button>Kirim</button>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <p>Pemrograman Web Design &copy; Edward</p>
+    </footer>
+  </body>
+</html>
